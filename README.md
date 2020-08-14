@@ -1,4 +1,4 @@
-Application preferences plugin for Cordova 3+
+Application preferences plugin for Cordova 3+ (With support for Cordova 9)
 -----------------------
 
 Why you should use this plugin?
@@ -13,24 +13,13 @@ Why you should use this plugin?
  * Supports simple and complex data structures
  * Supports removal of the keys
  * Have preference pane generator for application (for Android and iOS) and can show native preferences
- * (Untested) reference change notification [#37](apla/me.apla.cordova.app-preferences#37)
- * (Untested) named preferences files for android and iOS suites [#97](apla/me.apla.cordova.app-preferences#97)
- * (Untested) synchronized preferences via iCloud or windows roaming [#75](apla/me.apla.cordova.app-preferences#75)
 
 Installing
 ---
 
-From plugin registry:
-
-	$ cordova plugin add cordova-plugin-app-preferences
-
 From the repo:
 
-	$ cordova plugin add https://github.com/apla/me.apla.cordova.app-preferences
-
-From a local clone:
-
-	$ cordova plugin add /path/to/me.apla.cordova.app-preferences/folder
+	$ cordova plugin add https://github.com/app-affairs-GmbH/me.apla.cordova.app-preferences
 
 
 https://github.com/apla/me.apla.cordova.app-preferences/issues/97
